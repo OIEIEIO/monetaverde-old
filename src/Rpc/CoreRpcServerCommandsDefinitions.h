@@ -45,6 +45,16 @@ struct STATUS_STRUCT {
   }
 };
 
+struct STATUS_STRUCT_EX {
+  std::string status;
+  std::string data;
+
+  void serialize(ISerializer &s) {
+    KV_MEMBER(status)
+    KV_MEMBER(data)
+  }
+ };
+  
 struct COMMAND_RPC_GET_HEIGHT {
   typedef EMPTY_STRUCT request;
 
@@ -368,7 +378,7 @@ struct COMMAND_RPC_GET_CURRENCY_ID {
 
 struct COMMAND_RPC_SUBMITBLOCK {
   typedef std::vector<std::string> request;
-  typedef STATUS_STRUCT response;
+  typedef STATUS_STRUCT_EX response;
 };
 
 struct block_header_response {
