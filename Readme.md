@@ -23,3 +23,20 @@ $ cd build
 $ cmake -D STATIC=ON -D CMAKE_BUILD_TYPE=RELEASE ..
 $ PORTABLE=1 make
 ```
+## For Building MonetaVerde - MCN - MultiAlgo V 1.0.0  on Ubuntu 18.04
+
+(These are instructions for building on a fresh Ubuntu installation. No other dependencies are required) :
+```
+
+$ sudo apt update
+$ sudo apt upgrade
+$ sudo apt install build-essential
+$ sudo apt install libboost-all-dev
+$ sudo apt install cmake
+$ sudo git clone https://github.com/mcnproject/monetaverde.git
+$ cd monetaverde
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make
+```
