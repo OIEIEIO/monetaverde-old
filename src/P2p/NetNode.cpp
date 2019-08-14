@@ -70,7 +70,7 @@ void addPortMapping(Logging::LoggerRef& logger, uint32_t port) {
   // Add UPnP port mapping
   logger(INFO) << "Attempting to add IGD port mapping.";
   int result;
-  UPNPDev* deviceList = upnpDiscover(1000, NULL, NULL, 0, 0, &result);
+  UPNPDev* deviceList = upnpDiscover(1000, nullptr, nullptr, 0, 0, 2, &result);
   UPNPUrls urls;
   IGDdatas igdData;
   char lanAddress[64];
@@ -329,9 +329,9 @@ std::string print_peerlist_to_string(const std::list<PeerlistEntry>& pl) {
   }
 
   //----------------------------------------------------------------------------------- 
-  void NodeServer::externalRelayNotifyToAll(int command, const BinaryArray& data_buff) {
-    m_dispatcher.remoteSpawn([this, command, data_buff] {
-      relay_notify_to_all(command, data_buff, nullptr);
+  void NodeServer::externalRelayNotifyToAll(int command, const BinaryArray& data_buff, const net_connection_id* excludeConnection) {
+    m_dispatcher.remoteSpawn([this, command, data_buff, excludeConnection] {
+      relay_notify_to_all(command, data_buff, excludeConnection);
     });
   }
 
@@ -1130,7 +1130,7 @@ std::string print_peerlist_to_string(const std::list<PeerlistEntry>& pl) {
     }
 
     //fill response
-    rsp.local_time = time(NULL);
+    rsp.local_time = time(nullptr);
     m_peerlist.get_peerlist_head(rsp.local_peerlist);
     m_payload_handler.get_payload_sync_data(rsp.payload_data);
     logger(Logging::TRACE) << context << "COMMAND_TIMED_SYNC";
