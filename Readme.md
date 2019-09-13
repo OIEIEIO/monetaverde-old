@@ -7,7 +7,21 @@ This is the monetaverde core source code and binary release.
 
 [Main website](https://mcn.green)
 
+[Block Explorer](https://explorer.mcn.green)
+
+[Paper wallet](https://mcn.green/paperwallet-generator.html)
+
+[Discord](https://discord.gg/ExaXHPt)
+
+[Telegram](https://t.me/joinchat/J345qUOVKPPtsJQgiLbwVQ)
+
+[Twitter](https://twitter.com/MonetaVerde)
+
 [BitcoinTalk main announcement thread](https://bitcointalk.org/index.php?topic=5069658)
+
+[Reddit](https://www.reddit.com/r/monetaverdeMCN)
+
+[Facebook](https://www.facebook.com/Monetaverde)
 
 [monetaverde-wallet gui (source and binaries)](https://github.com/mcnproject/monetaverde-wallet)
 
