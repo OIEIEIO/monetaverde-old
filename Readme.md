@@ -1,5 +1,19 @@
 ![](https://github.com/OIEIEIO/monetaverde-images/blob/master/watermark.png) 
 
+MonetaVerde’s blockchain was rebased and released in April 2019. Recognizing the various challenges and competition between cryptocurrencies we decided to set ourself in a different light with our unique approach to becoming the very first Cryptonote multi-algorithm proof of work (PoW) blockchain. This approach has put us in a position where we can always grow in a co-operative manner within the digital currency world. 
+
+We can confirm transactions by merge mining with over 100 different cryptocurrencies so far. 
+
+We use a unique algorithm to increase block reward with difficulty change and keep miners motivation.
+Our ability to merge with so my coins puts us in a rather secure and stable environment.
+
+* First Block: June 17, 2014 
+* Money Supply: Infinite
+* Block Reward: Ascending with difficulty
+* Block Maturity: 60 seconds
+* Block Confirmation: Proof of Work
+* Current Circulation: approximately 75,000,000 (as of September 2019)
+
 [Main website](https://mcn.green)
 
 [Block Explorer](https://explorer.mcn.green)
