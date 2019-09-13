@@ -36,9 +36,11 @@ Our ability to merge with so my coins puts us in a rather secure and stable envi
 
 Monetaverde is a cryptonote based blockchain and cryptocurrency (ticker : MCN)
 
-Below is the monetaverde core source code and instructions on how to build it.
+Instructions on how to build it.
 
-Libraries needed : boost >=1.58
+### Dependencies 
+
+Libraries needed : boost >=1.58, | libboost-all-dev | build-essential | cmake
 
 How to compile this :
 ```
@@ -56,6 +58,7 @@ $ PORTABLE=1 make
 
 $ sudo apt update
 $ sudo apt upgrade
+$ sudo apt install 
 $ sudo apt install build-essential
 $ sudo apt install libboost-all-dev
 $ sudo apt install cmake
