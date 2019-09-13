@@ -1,9 +1,4 @@
-# Moneta Verde cryptocurrency (MCN)
-
-
-Monetaverde is a cryptonight based cryptocurrency (ticker : MCN)
-
-This is the monetaverde core source code and binary release.
+![](https://github.com/OIEIEIO/monetaverde-images/blob/master/watermark.png) 
 
 [Main website](https://mcn.green)
 
@@ -25,6 +20,9 @@ This is the monetaverde core source code and binary release.
 
 [monetaverde-wallet gui (source and binaries)](https://github.com/mcnproject/monetaverde-wallet)
 
+Monetaverde is a cryptonote based cryptocurrency (ticker : MCN)
+
+This is the monetaverde core source code and binary release.
 
 Libraries needed : boost >=1.58
 
