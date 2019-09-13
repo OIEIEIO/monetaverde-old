@@ -20,9 +20,9 @@
 
 [monetaverde-wallet gui (source and binaries)](https://github.com/mcnproject/monetaverde-wallet)
 
-Monetaverde is a cryptonote based cryptocurrency (ticker : MCN)
+Monetaverde is a cryptonote based blockchain and cryptocurrency (ticker : MCN)
 
-This is the monetaverde core source code and binary release.
+Below is the monetaverde core source code and instructions on how to build it.
 
 Libraries needed : boost >=1.58
 
@@ -35,7 +35,7 @@ $ cd build
 $ cmake -D STATIC=ON -D CMAKE_BUILD_TYPE=RELEASE ..
 $ PORTABLE=1 make
 ```
-## For Building MonetaVerde - MCN - MultiAlgo V 1.0.0  on Ubuntu 18.04
+## For Building MonetaVerde - MCN - MultiAlgo V 1.0.1  on Ubuntu 18.04
 
 (These are instructions for building on a fresh Ubuntu installation. No other dependencies are required) :
 ```
@@ -45,7 +45,7 @@ $ sudo apt upgrade
 $ sudo apt install build-essential
 $ sudo apt install libboost-all-dev
 $ sudo apt install cmake
-$ sudo git clone https://github.com/mcnproject/monetaverde.git
+$ sudo git clone https://github.com/OIEIEIO/monetaverde.git
 $ cd monetaverde
 $ mkdir build
 $ cd build
