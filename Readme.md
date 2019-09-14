@@ -70,7 +70,7 @@ $ make
 ```
 After the build is complete to 100% you can change to the directory where your linked executables are 
 ```
-  cd ~/monetaverde/build/src 
+cd ~/monetaverde/build/src 
 ```  
 Start 
 ```
