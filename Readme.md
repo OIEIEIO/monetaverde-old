@@ -57,8 +57,7 @@ $ PORTABLE=1 make
 ```
 
 $ sudo apt update
-$ sudo apt upgrade
-$ sudo apt install 
+$ sudo apt upgrade 
 $ sudo apt install build-essential
 $ sudo apt install libboost-all-dev
 $ sudo apt install cmake
