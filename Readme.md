@@ -76,4 +76,6 @@ Start
 ```
 ./monetaverded
 ``` 
-and allow it to sync the blockchain. Time to sync is approximately 24hrs
+Allow it to sync the blockchain. Time to sync is approximately 24hrs
+
+When the Blockchain is synced you may create a wallet
