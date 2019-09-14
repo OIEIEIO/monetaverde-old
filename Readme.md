@@ -68,3 +68,8 @@ $ cd build
 $ cmake ..
 $ make
 ```
+After the build is complete to 100% you can change to the directory where your linked executables are 
+
+  cd ~/monetaverde/build/src 
+  
+  Start  ./monetaverded and allow it to sync the blockchain. Time to sync is approximately 24hrs
