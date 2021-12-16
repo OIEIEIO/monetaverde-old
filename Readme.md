@@ -44,7 +44,7 @@ Libraries needed : boost >=1.58, | libboost-all-dev | build-essential | cmake
 
 How to compile this :
 ```
-$ git clone https://github.com/mcnproject/monetaverde.git
+$ git clone https://github.com/mcnproject/monetaverde-old.git
 $ cd monetaverde
 $ mkdir build
 $ cd build
