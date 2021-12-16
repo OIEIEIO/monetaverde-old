@@ -61,7 +61,7 @@ $ sudo apt upgrade
 $ sudo apt install build-essential
 $ sudo apt install libboost-all-dev
 $ sudo apt install cmake
-$ sudo git clone https://github.com/OIEIEIO/monetaverde.git
+$ sudo git clone https://github.com/OIEIEIO/monetaverde-old.git
 $ cd monetaverde
 $ mkdir build
 $ cd build
